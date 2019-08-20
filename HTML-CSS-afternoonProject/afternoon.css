@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    
+}
+
+.header {
+    height: 60px;
+    background: url(https://s3.amazonaws.com/www-inside-design/static/img/butterbar-dbmedium.png);
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: right center;
+    position: sticky;
+}
+
+.follow-now {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div-header {
+    font-size: .07rem;
+    color: white
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    margin: 25px 0;
+}
+
+.design-better {
+    display: inline-block;
+    margin: 25px 0;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    font-size: .8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-bar {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    left: 50%;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.subscribe {
+    display: inline-block;
+    background: palevioletred;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px / 50px;
+    margin: 50px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+}
+
+.in {
+    height: 30px;
+    width: 30px;
+    background: black;
+    color: white;
+    margin: 50px 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.main {
+    height: 70vh;
+    width: 160vh;
+    background: pink;
+    position: fixed;
+    bottom: 10vh;
+    right: 0;
+    
+}
+
+.h1 {
+    font-size: 4rem;
+    margin: 150px 0 0 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.h2 {
+    font-size: 1rem;
+    margin: 10px 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.get-audiobooks {
+    display: inline-block;
+    background: palevioletred;
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    border-radius: 50px / 50px;
+    font-size: 1.2rem;
+    color: white;
+    margin: 10px 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

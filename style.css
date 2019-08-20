@@ -1,0 +1,52 @@
+body {
+    margin: 0
+}
+
+.outer {
+    height: 50vh;
+    width: 50vw;
+    background: blue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-inner {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.other-div{
+    height: 200vh;
+    width: 80vw;
+    background: rgb(192, 192, 250)
+}
+
+.navbar{
+    height: 60px;
+    background: purple;
+    position: sticky;
+    top: 0;
+}
+
+.spacer{
+    height: 50vh;
+}
